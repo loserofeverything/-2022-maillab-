@@ -39,9 +39,9 @@ void send_mail(const char* receiver, const char* subject, const char* msg, const
     const char * end_command = "\r\n";
     const char* host_name = "smtp.qq.com"; // TODO: Specify the mail server domain name
     const unsigned short port = 25; // SMTP server port
-    const char* user = "2156348350@qq.com"; // TODO: Specify the user
-    const char* pass = "svfxcqhpxyfxeaec"; // TODO: Specify the password
-    const char* from = "2156348350@qq.com"; // TODO: Specify the mail address of the sender
+    const char* user = "xxxxxxxx@qq.com"; // TODO: Specify the user
+    const char* pass = "yyyyyyyy"; // TODO: Specify the password
+    const char* from = "xxxxxxxx@qq.com"; // TODO: Specify the mail address of the sender
     char dest_ip[16]; // Mail server IP address
     int s_fd; // socket file descriptor
     struct hostent *host;
